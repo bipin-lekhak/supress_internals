@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "supress-internals"
+version = "0.1.0"
+description = ""
+authors = ["Bipin Lekhak <bplthegreat@gmail.com>"]
+readme = "README.md"
+packages = [{include = "supress_internals"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^22.10.0"
+flake8 = "^5.0.4"
+isort = "^5.10.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
